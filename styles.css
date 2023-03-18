@@ -1,9 +1,64 @@
-nav {
+body {
+  margin: 0;
+}
+
+header.landing-page-header {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.landing-page-header h4 {
+  margin: 0;
+  font-size: 25px;
+  color: #fff;
+}
+
+.landing-page-header .links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.landing-page-header .links a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  margin: 0;
+}
+
+.hero-section .hero-section-container {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-section .hero-section-container .left {
+  flex: 1 0 45%;
+}
+
+.hero-section .hero-section-container .right {
+  flex: 1 0 45%;
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
   background-color: #1f2937;
+  color: white;
 }
 
 .text {
@@ -11,10 +66,26 @@ footer {
   font-size: 32px;
   font-style: italic;
   color: #1f2937;
+  padding: 50px;
 }
 
-.buttons {
+.hero-section .hero-section-container .left button {
   background-color: #3882f6;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.hero-section .hero-section-container .left h1 {
+  color: white;
+}
+
+.hero-section .hero-section-container .left p {
+  color: white;
 }
 
 a {
@@ -24,4 +95,37 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.cards card-1 {
+  border-radius: 3px;
+  background-color: blue;
+}
+
+.cards h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-2 {
+  background-color: Dodgerblue;
+  color: white;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 5px;
+  width: 800px;
+}
+
+.buttons-2 button {
+  border-radius: 4px;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  display: flex;
+  align-self: center;
+  color: white;
+  background-color: Dodgerblue;
+  border-color: white;
 }
